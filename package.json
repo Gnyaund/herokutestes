@@ -2,10 +2,13 @@
   "name": "herokun",
   "version": "0.0.1",
   "description": "test",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "node ./src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
