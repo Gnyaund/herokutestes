@@ -7,4 +7,7 @@ app.get("/", function (req, res) {
 });
 
 //app.listen(3000, function () {});
-process.env.NOW_REGION ? (module.exports = app) : app.listen(PORT);
+//process.env.NOW_REGION ? (module.exports = app) : app.listen(PORT);
+app.listen(PORT, () => {
+  console.log(`Express Server Listen START at port=${PORT}`);
+});
